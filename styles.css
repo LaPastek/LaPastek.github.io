@@ -5,9 +5,10 @@ body {
 }
 
 header {
-    background-color: #9845b0;
+    background-color: #4b0082;
     padding: 1em;
     text-align: center;
+	padding: 10px 0;
 }
 
 nav ul {
@@ -33,13 +34,15 @@ nav ul li a:hover {
 }
 
 main {
-	    background-color: #9845b0;
+
     padding: 2em;
 	    flex: 1;
+    background-color: #e6e6fa;
 }
 
 footer {
-    background-color: #9845b0;
+    background-color: #8a2be2;
+    color: white;
     text-align: center;
     padding: 10px 0;
 	width: 100%;
@@ -51,8 +54,10 @@ form {
     max-width: 600px;
     margin: 0 auto;
     padding: 1em;
-    background: #9845d0;
+
+    background: #f9f9f9;
     border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 label {
@@ -70,17 +75,19 @@ input, select, textarea, button {
 }
 
 button {
-    background: #9844b0;
+    background: #4b0082;
     color: white;
     border: none;
     cursor: pointer;
     padding: 1em;
     font-size: 1em;
     margin-top: 1em;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 button:hover {
-    background: #555;
+    background: #8a2be2;
 }
 
 .social-media {
@@ -103,7 +110,7 @@ button:hover {
 
 .hero {
     text-align: center;
-    background: #f0f0f0;
+    background: #dda0dd;
     padding: 50px 20px;
 }
 
@@ -114,7 +121,7 @@ button:hover {
 }
 
 .feature {
-    background: #9855b0;
+    background: #d8bfd8;
     padding: 20px;
     border-radius: 5px;
     width: 30%;
@@ -126,7 +133,7 @@ button:hover {
 }
 
 .feature:hover {
-    background: #9856b5;
+    background: #dda0dd;
     transform: translateY(-5px);
 }
 
