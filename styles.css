@@ -35,20 +35,24 @@ nav ul li a:hover {
 main {
 	    background-color: #9845b0;
     padding: 2em;
+	    flex: 1;
 }
 
 footer {
     background-color: #9845b0;
     padding: 1em;
     text-align: center;
-	    bottom: 0;
+    padding: 10px 0;
+		    position: relative;
+				    bottom: 0;
+					    width: 100%;
 }
 
 form {
     max-width: 600px;
     margin: 0 auto;
     padding: 1em;
-    background: #f9f9f9;
+    background: #9845d0;
     border-radius: 5px;
 }
 
@@ -58,15 +62,16 @@ label {
 }
 
 input, select, textarea, button {
-    width: 100%;
+    width: calc(100% - 1.4em);
     padding: 0.7em;
     margin-top: 0.5em;
     border: 1px solid #ccc;
     border-radius: 5px;
+    box-sizing: border-box;
 }
 
 button {
-    background: #333;
+    background: #9844b0;
     color: white;
     border: none;
     cursor: pointer;
@@ -94,4 +99,26 @@ button:hover {
 
 .social-media a img:hover {
     transform: scale(1.2);
+}
+
+
+.hero {
+    text-align: center;
+    background: #f0f0f0;
+    padding: 50px 20px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.feature {
+    background: #e0e0e0;
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
