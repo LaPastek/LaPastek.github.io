@@ -40,12 +40,11 @@ main {
 
 footer {
     background-color: #9845b0;
-    padding: 1em;
     text-align: center;
     padding: 10px 0;
-		    position: relative;
-				    bottom: 0;
-					    width: 100%;
+	width: 100%;
+	position: relative;
+	bottom: 0;
 }
 
 form {
@@ -115,10 +114,26 @@ button:hover {
 }
 
 .feature {
-    background: #e0e0e0;
+    background: #9855b0;
     padding: 20px;
     border-radius: 5px;
     width: 30%;
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: black;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.feature:hover {
+    background: #9856b5;
+    transform: translateY(-5px);
+}
+
+.feature h2 {
+    margin: 0 0 10px;
+}
+
+.feature p {
+    margin: 0;
 }
